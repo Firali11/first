@@ -1,0 +1,38 @@
+.header-container {
+  width: 100%;
+  background: #c70d0d;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.nav-container ul li a:hover {
+  color: #e2de06;
+}
+
+.fa-burger {
+  font-size: 30px;
+  color: orange;
+  margin-right: 10px;
+  display: none;
+}
